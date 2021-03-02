@@ -36,15 +36,20 @@ namespace PopupFinderGui
             button1.Invoke(new Action(() => button1.Text = "Working..."));
             button1.Invoke(new Action(() => button1.Enabled = false));
             button2.Invoke(new Action(() => button2.Enabled = false));
+            
             string[] websites = Form2.websites;
             string[] webext = Form2.extensions;
             int amountofguesses = Form2.guesses;
             bool gorp = Form2.gorp;
+            
             List<string> goodurls = new List<string>();
             List<string> triedurls = new List<string>();
             HttpClient httpClient = new HttpClient();
             Random random = new Random();
+            
+            HttpClientHandler.AllowAutoRedirect = true
             httpClient.Timeout = TimeSpan.FromSeconds(Form2.timeout);
+            
             double speed = 0;
             double seconds = 0;
             try
