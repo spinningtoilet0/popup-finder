@@ -1,5 +1,6 @@
 # Scam Popup Finder
-Simple web-based scam popup finder.  Opens a bunch of tabs of common scam misspellings.  Hosted on GitHub Pages.
+A popup finder written in c#. I don't think I will improve this, but I atleast hope it is good enough for scambaiters.
+**I understand that my code is very messy. It really isn't that good**
 
 ## Contributing
-To contribute, edit index.html to add a new domain, then open a PR.  Be sure to mention your new domain(s) in the PR.
+Make
