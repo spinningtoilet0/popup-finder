@@ -17,6 +17,7 @@ And the use no numbers option explains itself.
 
 
 
+
 One neat feature is that when you click on save, it stores it in the .exe.config file to be loaded later!
 Click on the big "Open last saved settings."
 
