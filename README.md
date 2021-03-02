@@ -8,9 +8,14 @@ When you first load up the exe, click on the options. On the left you can see al
 Next to that is the website extensions, (like .com, .net, .org, etc). To the right of that is the basic options.
 
 *Popup Guesses* is the amount of times the program will *guess.*
+
 *Popup Amount* is the amount of *confirmed working websites.*
+
 Timeout is how long the httpClient can wait at maximum for a response,
+
 And the use no numbers option explains itself.
+
+
 
 One neat feature is that when you click on save, it stores it in the .exe.config file to be loaded later!
 Click on the big "Open last saved settings."
